@@ -59,8 +59,9 @@ The aim of this course is to get a good *practical* grasp of machine learning. I
 ## Literature for the course
 
 I expect that you have read through these two documents:
-- [A couple of Python & Topcat pointers](Texts/Python-Topcat-MLD2019.pdf). This is a very basic document and might not contain a lot of new stuff. It does have a couple of tasks to try out - the solution for these you can find in the 
+- [A couple of Python & Topcat pointers](Texts/Python-Topcat/Python-Topcat-MLD2019.pdf). This is a very basic document and might not contain a lot of new stuff. It does have a couple of tasks to try out - the solution for these you can find in the [ProblemSets/0 - Pyton and Topcat](ProblemSets/0 - Pyton and Topcat) directory. 
 
+- [A reminder/intro to relevant math](Texts/MathIntro/math_reminders.pdf) contains a summary of some basic facts from linear algebra and probability theory that are useful for this course.
 
 Below you can find some books of use. The links from the titles get you to the Amazon page. If there are free versions of the books legally available online, I include a link as well.
 
@@ -98,7 +99,7 @@ In this case you will want to *fork* the repository rather than just clone this.
 
 ## Lecture 1 - links and information
 
-The slides are available in the Lectures directory.
+The slides are available in the Lectures directory. You can find some files for creating tables in the ProblemSets/MakeTables directory. 
 
 
 - The data file for the Star database for sqlite ingest - YAEPS.stars-table-sqlite.dat. If you want a version with header suitable for MySQL try this<LINK>
