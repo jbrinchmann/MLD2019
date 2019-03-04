@@ -96,6 +96,20 @@ In this case you will want to *fork* the repository rather than just clone this.
 -    git remote -v should give: origin https://github.com/[YOUR_GIT_UNAME]/DDM2017.git (fetch) origin https://github.com/[YOUR_GIT_UNAME]/DDM2017.git (push) upstream https://github.com/jbrinchmann/DDM2017.git (fetch) upstream https://github.com/jbrinchmann/DDM2017.git (push)
 -    Now you're ready to add files and folders to your local fork. Use git add, git commit and git push (origin master) to add your assignments.
 
+## Software you need for the course
+
+The course will make use of python throughout, and for this you need a recent version of python installed. I use python 3 by default but will try to make all scripts compatible with python 2 and python 3. For python you will need (well, I recommend it at least) at least these libraries installed:
+
+- [numpy](http://www.numpy.org/) - for numerical calculations
+- [astropy](http://www.astropy.org/) - because we are astronomers
+- [scipy](https://www.scipy.org/) - because we are scientists 
+- [sklearn](https://scikit-learn.org/) - Machine learning libraries with full name scikit-learn.
+- [matplotlib](https://matplotlib.org/) - plotting (you can use alternatives of course)
+- [pandas](https://pandas.pydata.org/) - nice handling of data
+- [seaborn](https://seaborn.pydata.org/) - nice plots
+
+(the last two are really "nice to have" but if you can install the others then these are easy).
+
 
 ## Lecture 1 - links and information
 
