@@ -108,3 +108,6 @@ venv.bak/
 *.log
 *.out
 *.synctex.gz
+
+# Emacs temporary files
+.#*
