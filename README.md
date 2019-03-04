@@ -58,9 +58,11 @@ The aim of this course is to get a good *practical* grasp of machine learning. I
 
 ## Literature for the course
 
+I expect that you have read through these two documents:
+- [A couple of Python & Topcat pointers](Texts/Python-Topcat-MLD2019.pdf). This is a very basic document and might not contain a lot of new stuff. It does have a couple of tasks to try out - the solution for these you can find in the 
+
 
 Below you can find some books of use. The links from the titles get you to the Amazon page. If there are free versions of the books legally available online, I include a link as well.
-
 
 - I base myself partially on ["Statistics, Data Mining, and Machine Learning in Astronomy" - Ivezic, Connolly, VanderPlas &amp; Gray](http://www.amazon.co.uk/Statistics-Mining-Machine-Learning-Astronomy/dp/0691151687/ref=sr_1_1?ie=UTF8&amp;qid=1444255176&amp;sr=8-1&amp;keywords=Statistics%2C+Data+Mining%2C+and+Machine+Learning+in+Astronomy+-+Ivezic%2C+Connolly%2C+VanderPlas+%26+Gray)
 
