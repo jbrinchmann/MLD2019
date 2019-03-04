@@ -21,7 +21,7 @@ def load_data(filename=None):
 
 # Next, we create a connection to the database.
 
-def load_db(dbname="DDM17-python.db"):
+def load_db(dbname="MLD19-python.db"):
     """Loads the Stars and Observation tables into the appropriate database. 
     """
     con = lite.connect(dbname)
@@ -32,11 +32,7 @@ def load_db(dbname="DDM17-python.db"):
         # Create the command to create the table. I use a 
         # multiline string to ease readability here.
         table = 'Stars'
-        command = """CREATE TABLE IF NOT EXISTS {0} (StarID INT,
-    			 FieldID INT, Star varchar(10), ra DOUBLE,
-    			 decl DOUBLE, g FLOAT, r FLOAT,
-    			 UNIQUE(StarID), PRIMARY KEY(StarID),
-    			 FOREIGN KEY(FieldID) REFERENCES Observations(ID))""".format(table)
+        command = """<TO BE FILLED IN>""".format(table)
     
         # Next, actually execute this command.
         con.execute(command)
@@ -54,15 +50,7 @@ def load_db(dbname="DDM17-python.db"):
         #
         table = 'Observations'
         command = """
-    CREATE TABLE IF NOT EXISTS Observations (ID INT,
-         	    Field varchar(10),
-      		    date DOUBLE, 
-    		    exptime FLOAT,
-    		    quality FLOAT, 
-      		    WhereStored varchar(256),
-    		    UNIQUE (ID),
-    		    PRIMARY KEY (ID)
-    			);
+<TO BE FILLED IN>
     """.format(table)
     
         # Next, actually execute this command.
@@ -74,9 +62,11 @@ def load_db(dbname="DDM17-python.db"):
         # Note the '' around the string values - try to remove them, it won't go well!
         observations=load_data('YAEPS.observations-table.dat')
         for row in observations:
+
+            # THE COMMAND BELOW MIGHT NEED MODIFICATIONS DEPENDING ON YOUR SCHEMA ABOVE
             command = "INSERT INTO Observations VALUES({0},'{1}',{2},{3},{4},'{5}')".format(row[0], row[1], row[2], row[3], row[4], row[5])
             print(command)
             con.execute(command)
 
 if __name__ == "__main__":
-    load_db(dbname="DDM17-python.db")
+    load_db(dbname="MLD19-python.db")
