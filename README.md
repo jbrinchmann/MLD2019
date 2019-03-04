@@ -2,8 +2,42 @@
 
 ## Background
 
+This course is an advanced course at CAUP during March and April 2019. Lectures will take place on Mondays at 14:00 while practical classes will take place on Thursdays at 10:00. Both have duration 2 hours with a short break.
 
-## Make a copy of the repository that you can edit
+Course plan:
+
+March 4
+: **Managing data and simple regression**
+: Covering git and SQL
+: Introducing machine learning through regression techniques.
+
+March 11
+: **Visualisation and inference methods**
+: Visualisation of data, do's and don't's
+: Classical inference
+: Bayesian inference
+: MCMC
+
+March 18
+: **Density estimation and model choice**
+: Estimating densities, parametric & non-parametric
+: Bias-variance trade-off
+: Cross-validation
+: Classification
+
+March 25
+: **Dimensional reduction**
+: Standardising data.
+: Principal Component Analysis
+: Manifold learning
+
+April 8
+: **Ensemble methods, neural networks, deep learning**
+: Local regression methods
+: Random forests and other boosting methods
+: Neural networks & deep learning
+
+## Making a copy of the repository that you can edit
 
 In this case you will want to *fork* the repository rather than just clone this. You can follow the instructions below (credit to Alexander Mechev for this) to create a fork of the repository:
 
