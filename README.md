@@ -102,11 +102,4 @@ In this case you will want to *fork* the repository rather than just clone this.
 The slides are available in the Lectures directory. You can find some files for creating tables in the ProblemSets/MakeTables directory. 
 
 
-- The data file for the Star database for sqlite ingest - YAEPS.stars-table-sqlite.dat. If you want a version with header suitable for MySQL try this<LINK>
-- The data file for the Observations database for sqlite ingest - YAEPS.observations-table-sqlite.dat. If you want a version with header suitable for MySQL try this
-- The SQL code to create the Star table in sqlite3 - sqlite3-make-stars-table.sql. For MySQL you would use myqsl-make-stars-table.sql
-- The SQL code to create the Observations table in sqlite3 - sqlite3-make-observations-table.sql.  For MySQL you would use myqsl-make-observations-table.sql.
-- A small intro to python with some simple tasks can be found here, with a possible solution that uses a driver routine as well as a and a collection of Python functions that this uses.
-- A simple introductory problem set to familiarise you with various astronomical data archives/databases and get more experience with SQL.
-
 
