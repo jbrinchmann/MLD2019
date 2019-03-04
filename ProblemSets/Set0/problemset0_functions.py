@@ -1,4 +1,7 @@
-import pyfits
+from __future__ import print_function
+
+from astropy.io import fits
+from astropy.table import Table
 import numpy as np
 import matplotlib.pyplot as plt 
 from matplotlib.ticker import MultipleLocator
@@ -14,10 +17,11 @@ def read_exoplanet_table():
     """
 
     # The name of the file
-    file = '../Catalogues/exoplanet_catalog-2016-10-12.fits'
+    fname = '../../Datafiles/exoplanet_catalog.vot'
 
+    t = Table().read(fname)
     # Read in the FITS table
-    t = pyfits.getdata(file, 1)
+#    t = fits.getdata(file, 1)
 
     # Return the result to the user.
     return t
@@ -47,10 +51,10 @@ def task1():
     t = read_exoplanet_table()
     n_Kepler = count_Kepler(t)
 
-    print "--------------------------------------------------------"
-    print "Task 1: How many of the planets were found by Kepler\n"
-    print "The Kepler mission has detected {0} planets in the file I have available.".format(n_Kepler)
-    print "\n\n"
+    print("--------------------------------------------------------")
+    print("Task 1: How many of the planets were found by Kepler\n")
+    print("The Kepler mission has detected {0} planets in the file I have available.".format(n_Kepler))
+    print("\n\n")
     
 
 def meanMass_function(t):
@@ -89,7 +93,7 @@ def task2():
     n_bad = n_all - n_good
 
     # This variable will contain the masses of the planets for we know the mass.
-    masses = t.mass[useful]
+    masses = t['mass'][useful]
 
     # We can now use np.mean to get the mean mass. If I had not filtered out the missing 
     # mass estimates, I would use np.nanmean instead.
@@ -102,11 +106,11 @@ def task2():
     geometricMean = np.exp(np.mean(np.log(masses)))
 
     # Output the results
-    print "--------------------------------------------------------"
-    print "Task 2: The mean mass of planets\n"
-    print "A total of {0} planets ({1:.2f}%) have unknown mass - I ignore these\n".format(n_bad, 100.0*n_bad/n_all)
-    print "The remaining planets have a mean mass = {0:.2f} MJup and a geometric mean mass of {1:.2f} MJup".format(meanMass, geometricMean)
-    print "Finally, the difference between my function and numpy.mean's calculation = {0:.3f}\n".format(meanMass-meanMass2)
+    print("--------------------------------------------------------")
+    print("Task 2: The mean mass of planets\n")
+    print("A total of {0} planets ({1:.2f}%) have unknown mass - I ignore these\n".format(n_bad, 100.0*n_bad/n_all))
+    print("The remaining planets have a mean mass = {0:.2f} MJup and a geometric mean mass of {1:.2f} MJup".format(meanMass, geometricMean))
+    print("Finally, the difference between my function and numpy.mean's calculation = {0:.3f}\n".format(meanMass-meanMass2))
 
 
 def task3():
@@ -121,16 +125,16 @@ This function does task 3 a, b, c - the plotting of an HR diagram.
     file_step2 = 'HR-diagram-Mcoloured.pdf'
     file_step3 = 'HR-diagram-Mcoloured-scaled.pdf'
 
-    print "The HR diagram without scaling or colour."
-    print "Written to {0}".format(file_step1)
+    print("The HR diagram without scaling or colour.")
+    print("Written to {0}".format(file_step1))
     showHR(t, pdf=file_step1, includegrid=True)
 
-    print "The HR diagram - points coloured by log stellar mass"
-    print "Written to {0}".format(file_step2)
+    print("The HR diagram - points coloured by log stellar mass")
+    print("Written to {0}".format(file_step2))
     showHR(t, colour='log mass', pdf=file_step2)
     
-    print "The HR diagram - points coloured by log stellar mass amd scaled by stellar radius"
-    print "Written to {0}".format(file_step3)
+    print("The HR diagram - points coloured by log stellar mass amd scaled by stellar radius")
+    print("Written to {0}".format(file_step3))
     showHR(t, colour='log mass', scale='radius', pdf=file_step3)
 
     
@@ -194,7 +198,7 @@ def showHR(t, scale=None, colour=None, pdf=None, includegrid=False):
     n_bad = n_all - n_good
     frac_bad = n_bad/np.float(n_all)
 
-    print "I will plot {0:d} points, that is {1:.1f}% of the total".format(n_good, 100*frac_bad)
+    print("I will plot {0:d} points, that is {1:.1f}% of the total".format(n_good, 100*frac_bad))
     Teff = Teff[good]
     Vabs = Vabs[good]
     scaling = scaling[good]
@@ -203,7 +207,7 @@ def showHR(t, scale=None, colour=None, pdf=None, includegrid=False):
     except:
         pass
 
-    #    print "Colors=", col
+    #    print("Colors=", col)
     
     # Set up the plot area. Note that I use an alpha value to make the plot more readable where there 
     # is a high density of points.
@@ -348,14 +352,14 @@ def compare_systems_to_solar_system(t, ps_all=None, flag_all=None,
 
     # Get the planetary systems and their maximum extents.
     if (ps_all is None or flag_all is None or max_extent_all is None):
-        print "Finding the multiple planetary systems"
+        print("Finding the multiple planetary systems")
         ps_all, flag_all, max_extent_all = find_multiple_planetary_systems(t)
     
     
     # Find the planet system with >= n_min planets.
     use, = np.where(flag_all >= n_min)
     n_use = len(use)
-    print "I found a total of {0} planetary systems with >= {1} planets".format(n_use, n_min)
+    print("I found a total of {0} planetary systems with >= {1} planets".format(n_use, n_min))
 
     # Extract these parts for ease later
     ps_tmp = [ps_all[i] for i in use]
@@ -373,7 +377,7 @@ def compare_systems_to_solar_system(t, ps_all=None, flag_all=None,
     sol = solar_system()
 
     
-    print "The length of the array={0}".format(len(flag))
+    print("The length of the array={0}".format(len(flag)))
 
     # Now set up the plot range if needed
     if xmax is None:
