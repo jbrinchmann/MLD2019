@@ -1,10 +1,10 @@
 # Machine learning and Databases at CAUP/IA in 2019
 
-## Background
+## Course overview
 
 This course is an advanced course at CAUP during March and April 2019. Lectures will take place on Mondays at 14:00 while practical classes will take place on Thursdays at 10:00. Both have duration 2 hours with a short break.
 
-Course plan:
+The aim of this course is to get a good *practical* grasp of machine learning. I will not spend a lot of time on algorithm details but more on how to use these in python and try to discuss what methods are useful for what type of scientific question/research goal.
 
 <dl>
 <dt>March 4 - Managing data and simple regression</dt>
@@ -54,6 +54,32 @@ Course plan:
    </ul>
   </dd>
 </dl>
+
+
+## Literature for the course
+
+
+Below you can find some books of use. The links from the titles get you to the Amazon page. If there are free versions of the books legally available online, I include a link as well.
+
+
+- I base myself partially on ["Statistics, Data Mining, and Machine Learning in Astronomy" - Ivezic, Connolly, VanderPlas &amp; Gray](http://www.amazon.co.uk/Statistics-Mining-Machine-Learning-Astronomy/dp/0691151687/ref=sr_1_1?ie=UTF8&amp;qid=1444255176&amp;sr=8-1&amp;keywords=Statistics%2C+Data+Mining%2C+and+Machine+Learning+in+Astronomy+-+Ivezic%2C+Connolly%2C+VanderPlas+%26+Gray)
+
+- I have also consulted ["Deep Learning" - Goodfellow, Bengio &amp; Courville](https://www.amazon.co.uk/Deep-Learning-Adaptive-Computation-Machine/dp/0262035618/ref=sr_1_1?ie=UTF8&amp;qid=1505297517&amp;sr=8-1&amp;keywords=Deep+Learning)
+
+- ["Pattern Classification" - Duda, Hart &amp; Stork](http://www.amazon.co.uk/Pattern-Classification-Second-Wiley-Interscience-publication/dp/0471056693/ref=sr_1_1?ie=UTF8&amp;qid=1444255264&amp;sr=8-1&amp;keywords=Pattern+Classification), is a classic in the field
+
+- ["Pattern Recognition and Machine Learning" - Bishop](http://www.amazon.co.uk/Pattern-Recognition-Machine-Learning-BISHOP/dp/8132209060/ref=sr_1_1?ie=UTF8&amp;qid=1444255326&amp;sr=8-1&amp;keywords=Pattern+Recognition+and+Machine+Learning+-+Bishop), is a very good and comprehensive book. Personally I really like this one.
+
+- ["Bayesian Data Analysis" - Gelman](http://www.amazon.co.uk/Bayesian-Analysis-Chapman-Statistical-Science/dp/1439840954/ref=sr_1_1?ie=UTF8&amp;qid=1444255416&amp;sr=8-1&amp;keywords=Bayesian+Data+Analysis+-+Gelman), is often the first book you are pointed to if you ask questions about Bayesian analysis.
+
+- ["Information Theory, Inference and Learning Algorithms" - MacKay](http://www.amazon.co.uk/Information-Theory-Inference-Learning-Algorithms/dp/0521642981/ref=sr_1_1?ie=UTF8&amp;qid=1444255466&amp;sr=8-1&amp;keywords=Information+Theory%2C+Inference+and+Learning+Algorithms), is a very readable book on a lot of related topics. The book is also [freely available](http://www.inference.phy.cam.ac.uk/itila/book.html) on the web.
+
+- ["Introduction to Statistical Learning - James et al"](http://www.amazon.co.uk/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370/ref=sr_1_fkmr0_1?ie=UTF8&amp;qid=1444255565&amp;sr=8-1-fkmr0&amp;keywords=Introduction+to+Statistical+Learning+-+James+et+al) is a readable introduction (fairly basic) to statistical technique of relevance. It is also [freely available](http://www-bcf.usc.edu/~gareth/ISL/) on the web.
+
+-["Elements of Statistical Learning - Hastie et al](http://www.amazon.co.uk/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576/ref=sr_1_1?ie=UTF8&amp;qid=1444255710&amp;sr=8-1&amp;keywords=Elements+of+Statistical+Learning), is a  more advanced version of the Introduction to Statistical Learning with much the same authors. This is also [freely available](http://statweb.stanford.edu/~tibs/ElemStatLearn/) on the web.
+
+- ["Bayesian Models for Astrophysical Data", Hilbe, Souza & Ishida](https://www.amazon.com/Bayesian-Models-Astrophysical-Data-Python/dp/1107133084) is a good reference book for a range of Bayesian techniques and is a good way to learn about different modelling frameworks for Bayesian inference. 
+
 
 ## Making a copy of the repository that you can edit
 
