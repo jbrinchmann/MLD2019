@@ -1,0 +1,10 @@
+#ID, Field,      Date,      Exptime,   Quality,   WhereStored
+1,StF-043,92.9885764,23.2,1,/disks/yaeps-1/StF-043.fits
+2,StF-044,97.3323764,30.2,1,/disks/yaeps-1/StF-044.fits
+3,StF-045,93.5532134,29.5,0.5,/disks/yaeps-1/StF-045.fits
+4,StF-046,91.9885764,24.2,1,/disks/yaeps-1/StF-046.fits
+5,StF-047,94.3323764,31.4,1,/disks/yaeps-1/StF-047.fits
+6,StF-048,95.5532134,27.6,0.7,/disks/yaeps-1/StF-048.fits
+7,StF-049,96.9885764,28.3,1,/disks/yaeps-1/StF-049.fits
+8,StF-050,98.3323764,29.1,1,/disks/yaeps-1/StF-050.fits
+9,StF-051,99.5532134,32.0,0,/disks/yaeps-1/StF-051.fits
