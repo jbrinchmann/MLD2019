@@ -1,5 +1,8 @@
 # Machine learning and Databases at CAUP/IA in 2019
 
+
+We have started!
+
 ## Course overview
 
 This course is an advanced course at CAUP during March and April 2019. Lectures will take place on Mondays at 14:00 while practical classes will take place on Thursdays at 10:00. Both have duration 2 hours with a short break.
