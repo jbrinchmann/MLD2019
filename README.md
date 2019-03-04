@@ -6,36 +6,54 @@ This course is an advanced course at CAUP during March and April 2019. Lectures 
 
 Course plan:
 
-March 4
-: **Managing data and simple regression**
-: Covering git and SQL
-: Introducing machine learning through regression techniques.
+<dl>
+<dt>March 4 - Managing data and simple regression</dt>
+  <dd>
+   <ul>
+     <li> Covering git and SQL</li>
+     <li> Introducing machine learning through regression techniques.</li>
+   </ul>
+  </dd>
 
-March 11
-: **Visualisation and inference methods**
-: Visualisation of data, do's and don't's
-: Classical inference
-: Bayesian inference
-: MCMC
 
-March 18
-: **Density estimation and model choice**
-: Estimating densities, parametric & non-parametric
-: Bias-variance trade-off
-: Cross-validation
-: Classification
+<dt>March 11 - Visualisation and inference methods</dt>
+  <dd>
+   <ul>
+     <li>  Visualisation of data, do's and don't's </li>
+     <li>  Classical inference </li>
+     <li>  Bayesian inference </li>
+     <li>  MCMC </li>
+   </ul>
+  </dd>
 
-March 25
-: **Dimensional reduction**
-: Standardising data.
-: Principal Component Analysis
-: Manifold learning
+<dt>March 18 - Density estimation and model choice</dt>
+  <dd>
+   <ul>
+     <li>  Estimating densities, parametric & non-parametric </li>
+     <li>  Bias-variance trade-off </li>
+     <li>  Cross-validation </li>
+     <li>  Classification </li>
+   </ul>
+  </dd>
 
-April 8
-: **Ensemble methods, neural networks, deep learning**
-: Local regression methods
-: Random forests and other boosting methods
-: Neural networks & deep learning
+<dt>March 25 - Dimensional reduction</dt>
+  <dd>
+   <ul>
+     <li>  Standardising data. </li>
+     <li>  Principal Component Analysis </li>
+     <li>  Manifold learning </li>
+   </ul>
+  </dd>
+
+<dt>April 8 - Ensemble methods, neural networks, deep learning</dt>
+  <dd>
+   <ul>
+     <li>  Local regression methods </li>
+     <li>  Random forests and other boosting methods </li>
+     <li>  Neural networks & deep learning </li>
+   </ul>
+  </dd>
+</dl>
 
 ## Making a copy of the repository that you can edit
 
