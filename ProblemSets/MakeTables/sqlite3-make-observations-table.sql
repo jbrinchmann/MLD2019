@@ -8,4 +8,4 @@ CREATE TABLE IF NOT EXISTS Observations (ID INT,
 		    PRIMARY KEY (ID)
 			);
 .separator ","
-.import ../Database/YAEPS.observations-table-sqlite.dat Observations
+.import YAEPS.observations-table-sqlite.dat Observations
