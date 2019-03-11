@@ -10,5 +10,5 @@ CREATE TABLE IF NOT EXISTS Stars (StarID INT,
 			FOREIGN KEY(FieldID) REFERENCES Observations(ID));
 
 .separator ,
-.import ../Database/YAEPS.stars-table-sqlite.dat Stars
+.import YAEPS.stars-table-sqlite.dat Stars
 
