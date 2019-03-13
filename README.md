@@ -92,11 +92,11 @@ Below you can find some books of use. The links from the titles get you to the A
 In this case you will want to *fork* the repository rather than just clone this. You can follow the instructions below (credit to Alexander Mechev for this) to create a fork of the repository:
 
 -    Make a github account and log in.
--    Click on the 'Fork' at the top right. This will create a 'fork' on your own account. That means that you now have the latest commit of the repo and its history in your control. If you've tried to 'git push' to the DDM2017 repo you'd have noticed that you don't have access to it.
--    Once it's forked, you can go to your github profile and you'll see a DDM2017 repo. Go to it and get the .git link (green button)
--    Somewhere on your machine, git clone git clone https://github.com/[YOUR_GIT_UNAME]/DDM2017.git. You also need to enter the directory
--    Add our repo as an upstream. That way you can get (pull) new updates: git remote add upstream https://github.com/jbrinchmann/DDM2017.git
--    git remote -v should give: origin https://github.com/[YOUR_GIT_UNAME]/DDM2017.git (fetch) origin https://github.com/[YOUR_GIT_UNAME]/DDM2017.git (push) upstream https://github.com/jbrinchmann/DDM2017.git (fetch) upstream https://github.com/jbrinchmann/DDM2017.git (push)
+-    Click on the 'Fork' at the top right. This will create a 'fork' on your own account. That means that you now have the latest commit of the repo and its history in your control. If you've tried to 'git push' to the MLD2019 repo you'd have noticed that you don't have access to it.
+-    Once it's forked, you can go to your github profile and you'll see a MLD2019 repo. Go to it and get the .git link (green button)
+-    Somewhere on your machine, git clone git clone https://github.com/[YOUR_GIT_UNAME]/MLD2019.git. You also need to enter the directory
+-    Add our repo as an upstream. That way you can get (pull) new updates: git remote add upstream https://github.com/jbrinchmann/MLD2019.git
+-    git remote -v should give: origin https://github.com/[YOUR_GIT_UNAME]/MLD2019.git (fetch) origin https://github.com/[YOUR_GIT_UNAME]/MLD2019.git (push) upstream https://github.com/jbrinchmann/MLD2019.git (fetch) upstream https://github.com/jbrinchmann/MLD2019.git (push)
 -    Now you're ready to add files and folders to your local fork. Use git add, git commit and git push (origin master) to add your assignments.
 
 ## Software you need for the course
