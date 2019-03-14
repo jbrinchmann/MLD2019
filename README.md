@@ -113,6 +113,17 @@ The course will make use of python throughout, and for this you need a recent ve
 
 (the last two are really "nice to have" but if you can install the others then these are easy).
 
+You should also get `astroML` which has a nice web page at XX and a git repository at [https://github.com/astroML/astroML](https://github.com/astroML/astroML) 
+
+It turns out that the astroML distribution that is often picked up when you install it using a package manager (maybe also pip?) is outdated and does not work with new versions of sklearn. To check whether you have a problem, try:
+
+`from astroML.datasets import fetch_sdss_sspp`
+
+If this crashes with a complaint about a module GMM, you have the old version. To fix this the best way is probably to check out the git version of astroML linked above using e.g.:
+
+`git clone https://github.com/astroML/astroML.git`
+
+
 
 ## Lecture 1 - links and information
 
