@@ -125,6 +125,14 @@ If this crashes with a complaint about a module GMM, you have the old version. T
 
 
 
+To use astroML in Anaconda you need to get it from the astropy channel. For a one-off you can do:
+
+`conda install -c astropy astroML`
+
+If you want to add the astropy channel permanently (which probably is a good idea), you can do:
+
+`conda config --add channels astropy`
+
 ## Lecture 1 - links and information
 
 The slides are available in the Lectures directory. You can find some files for creating tables in the ProblemSets/MakeTables directory. 
