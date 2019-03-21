@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 2.0.4
+     http://www.astropy.org/ -->
+<VOTABLE version="1.3" xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.3">
+ <RESOURCE type="results">
+  <TABLE>
+   <FIELD ID="y" datatype="double" name="y"/>
+   <FIELD ID="x" datatype="double" name="x"/>
+   <FIELD ID="y_true" datatype="double" name="y_true"/>
+   <FIELD ID="sigma" datatype="double" name="sigma"/>
+   <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>-4.1919340708287631</TD>
+      <TD>-3</TD>
+      <TD>-3.1800000000000006</TD>
+      <TD>0.57832554500127009</TD>
+     </TR>
+     <TR>
+      <TD>-2.4054736802411374</TD>
+      <TD>-2.3333333333333335</TD>
+      <TD>-2.597777777777778</TD>
+      <TD>0.56117623204982114</TD>
+     </TR>
+     <TR>
+      <TD>-1.3224469625577142</TD>
+      <TD>-1.6666666666666667</TD>
+      <TD>-1.9444444444444446</TD>
+      <TD>0.53944333775567932</TD>
+     </TR>
+     <TR>
+      <TD>-1.348856886179822</TD>
+      <TD>-1</TD>
+      <TD>-1.22</TD>
+      <TD>0.51045361017187263</TD>
+     </TR>
+     <TR>
+      <TD>0.032016331747967197</TD>
+      <TD>-0.33333333333333348</TD>
+      <TD>-0.42444444444444462</TD>
+      <TD>0.46514940095230695</TD>
+     </TR>
+     <TR>
+      <TD>0.68210520433511368</TD>
+      <TD>0.33333333333333304</TD>
+      <TD>0.44222222222222185</TD>
+      <TD>0.46649979114420004</TD>
+     </TR>
+     <TR>
+      <TD>1.4944545957181776</TD>
+      <TD>1</TD>
+      <TD>1.3800000000000001</TD>
+      <TD>0.51747340124470731</TD>
+     </TR>
+     <TR>
+      <TD>1.7954853296392381</TD>
+      <TD>1.6666666666666661</TD>
+      <TD>2.388888888888888</TD>
+      <TD>0.55456030825826175</TD>
+     </TR>
+     <TR>
+      <TD>3.3577970463872528</TD>
+      <TD>2.333333333333333</TD>
+      <TD>3.4688888888888885</TD>
+      <TD>0.58624953392931989</TD>
+     </TR>
+     <TR>
+      <TD>4.7768110605576712</TD>
+      <TD>3</TD>
+      <TD>4.6200000000000001</TD>
+      <TD>0.61494185260204681</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>
