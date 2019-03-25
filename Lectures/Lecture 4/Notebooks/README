@@ -1,0 +1,3 @@
+The fits file is gzipped and must be unzipped before use. Also
+check the paths in the notebook file.
+
