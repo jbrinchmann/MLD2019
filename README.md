@@ -138,4 +138,64 @@ If you want to add the astropy channel permanently (which probably is a good ide
 The slides are available in the Lectures directory. You can find some files for creating tables in the ProblemSets/MakeTables directory. 
 
 
+## Lecture 2-4
+
+The slides are available in the Lectures directory.
+
+# Getting ready for deep learning in python
+
+In the final problem class we will look at using deep learning in python. There are quite a few libraries for this around but we will use the most commonly used one, [TensorFlow](https://www.tensorflow.org/) and we will use the [keras](https://keras.io/) python package for interacting with TensorFlow. Keras is a high-level interface (and can also use other libraries, [Theano](https://github.com/Theano/Theano) and [CNTK](https://github.com/Microsoft/cntk), in addition to TensorFlow). 
+
+There are many pages that detail the installation of these packages and what you need for them. A good one with a bias towards Windows is [this one](https://towardsdatascience.com/setup-an-environment-for-machine-learning-and-deep-learning-with-anaconda-in-windows-5d7134a3db10). I will give a very brief summary here of how I set things up. This is not optimised for Graphical Processing Unit (GPU) work so for serious future work you will need to adjust this.
+
+### Create an environment in anaconda 
+
+I am going to assume you use anaconda for your python environment. If not, you need to change this section a bit - use virtualenv instead of setting up a conda environment.  It is definitely better to keep your TensorFlow/keras etc setup out of your default Python work environment. Most of the packages are also installed with `pip` rather than conda, so what I use is
+
+`conda create -n tensorflow pip python=3.6`
+
+This creates an environment called tensorflow which uses python 3.6 and `pip` for installation. To use this we need to activate it first:
+
+`activate tensorflow`
+
+(assuming you use bash - I do not so I need to do some more tricks. Use bash). Your prompt should not change to include `(tensorflow)`.
+
+
+### Install tensorflow and keras
+
+I went for the simplest approach here:
+
+`pip install --upgrade tensorflow`
+
+This takes a while - the package is fairly large, 71.6Mb in my installation, and it requires a fair number of additional packages.
+
+`pip install keras`
+
+This is quicker.
+
+`pip install ipython`
+
+because that is not installed by default (you can skip this if you prefer not to use ipython).
+
+`pip install jupyter`
+
+because my example is a jupyter notebook.
+
+You will also need to install some other packages I am sure you will need:
+
+`pip install matplotlib`
+
+`pip install astropy`
+
+`pip install pandas`
+
+`pip install sklearn`
+
+`pip install seaborn`
+
+and you might have others that you want to use but that should set up you fairly well for deep learning. 
+
+
+
+###
 
