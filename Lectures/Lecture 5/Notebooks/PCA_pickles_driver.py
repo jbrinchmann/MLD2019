@@ -21,16 +21,16 @@ from sklearn.decomposition import PCA
 # 
 # The spectra are stored in a FITS file in the Pickles subdirectory called `pickles-spectra.fits`. This contains the wavelength axis in the first HDU, the flux in the next and the flux uncertainty in the last. But we also need to get the overview table which has the classification of the spectra.
 
-def load_pickles_library():
-    hdul = fits.open('/Users/jarle/Teaching/StellarSpectra/Pickles/pickles-spectra.fits')
+def load_pickles_library(fname='pickles-spectra.fits'):
+    hdul = fits.open(fname)
     wave = hdul[0].data
     flux = hdul[1].data
     dflux = hdul[2].data
     
     return wave, flux, dflux
 
-def load_overview_table():
-    return Table().read('/Users/jarle/Teaching/StellarSpectra/Pickles/overview-of-spectra.vot')
+def load_overview_table(fname='overview-of-spectra.vot'):
+    return Table().read(fname)
 
 
 def run_PCA(wavelength_range=[3000, 10000], n_components=10):
